@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Ubuntu&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Ubuntu&family=Workbench&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+header {
+    height: 35vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url("../assets/guitarras.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    color: rgb(94, 200, 246);
+    align-content: center;
+    overflow: hidden;
+        
+}
+
+header h1 {
+   text-align: center;
+   font-size: 3.5rem;
+   font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    filter: invert(76%) sepia(66%) saturate(1622%) hue-rotate(168deg) brightness(99%) contrast(94%);
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    padding: 10px 0;
+    align-content: center;
+    background: radial-gradient(circle, rgba(162,49,49,1) 0%, rgba(87,9,9,1) 100%);        
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+nav ul a {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #5ec8f6;
+}
+
+nav ul a:hover {
+    background-color: #7a2222;
+    color: rgb(186, 234, 255);   
+}
+
+main {
+    height: 65vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(../assets/fondo-main.jpg);
+    background-size: cover;
+    text-align: center;
+    align-content:center;
+    color:#5ec8f6;
+}
+
+main p {
+    padding: 30px;
+}
+
+
+section {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+div {
+    height: 350px;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid #5ec8f6 5px;
+    border-radius: 10px;
+    
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    h3 {
+        height: 35px;
+        width: 55px;
+        text-align: center;
+        align-content: center;
+        border: solid #5ec8f6 5px;
+        border-radius: 10px;
+    }
+    
+}
+
+#formulario {
+    font-size: 1.5rem;
+    button {
+        padding:10px 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        background-color: #5ec8f6;
+    }
+    button:hover {
+        background-color: #1bb6f9;
+    }
+
+    
+    textarea {
+        font-size: 1rem;
+    }
+}
